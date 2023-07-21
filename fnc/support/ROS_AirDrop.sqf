@@ -44,9 +44,9 @@ class CfgSounds {
 
 YOU CAN ADJUST THE FOLLOWING SETTINGS
 ------------------------------------*/
-ROSTotaldrops = 10; // Total number of allowed support drops
-_dropheight = 500; // Remember wind and height affects travel distance
-_droptime = 15; // Delay time before the drop takes place on the specified position at the above height
+ROSTotaldrops = 100; // Total number of allowed support drops
+_dropheight = 100; // Remember wind and height affects travel distance
+_droptime = 1; // Delay time before the drop takes place on the specified position at the above height
 _defaultVehicle = "C_supplyCrate_F"; // Change this class to suit your mission needs
 
 /* HOW TO GET THE DEFAULT VEHICLE CLASS YOU WANT TO DROP
