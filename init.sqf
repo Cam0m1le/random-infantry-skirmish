@@ -1,5 +1,4 @@
 //Show Players Names
-setViewDistance 12000;
 fnc_showUnitNames = compileFinal (preprocessFileLineNumbers "showUnitNames.sqf");
 addMissionEventHandler ["Draw3D", { call fnc_showUnitNames; }];
 
