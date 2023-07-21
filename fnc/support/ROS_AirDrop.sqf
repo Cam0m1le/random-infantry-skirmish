@@ -124,7 +124,7 @@ if (Relocate_drop) then {
     _vehpos = [_pos select 0, _pos select 1, _dropheight];
     "drop" setMarkerPos _pos;
     _veh = createVehicle [_vehtype, _vehpos, [], 0, "CAN_COLLIDE"];
-    _veh addAction ["Arsenal", {["Open",true] spawn BIS_fnc_arsenal}];
+    _veh addAction ["Арсенал", {["Open",true] spawn BIS_fnc_arsenal}, nil, 1.5, true, false, "", "", 3];
     _chute = createVehicle ["B_Parachute_02_F", _vehpos, [], 10, "FLY"];
     _veh attachto [_chute,[0,0,1]];
     hint "Heads up!\nSupport drop on marked position Sir.";
