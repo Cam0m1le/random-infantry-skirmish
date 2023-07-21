@@ -47,7 +47,7 @@ YOU CAN ADJUST THE FOLLOWING SETTINGS
 ROSTotaldrops = 10; // Total number of allowed support drops
 _dropheight = 500; // Remember wind and height affects travel distance
 _droptime = 15; // Delay time before the drop takes place on the specified position at the above height
-_defaultVehicle = "B_LSV_01_AT_F"; // Change this class to suit your mission needs
+_defaultVehicle = "C_supplyCrate_F"; // Change this class to suit your mission needs
 
 /* HOW TO GET THE DEFAULT VEHICLE CLASS YOU WANT TO DROP
 1) Place the vehicle you need the class for in the Eden editor
@@ -124,6 +124,7 @@ if (Relocate_drop) then {
     _vehpos = [_pos select 0, _pos select 1, _dropheight];
     "drop" setMarkerPos _pos;
     _veh = createVehicle [_vehtype, _vehpos, [], 0, "CAN_COLLIDE"];
+    _veh addAction ["Arsenal", {["Open",true] spawn BIS_fnc_arsenal}];
     _chute = createVehicle ["B_Parachute_02_F", _vehpos, [], 10, "FLY"];
     _veh attachto [_chute,[0,0,1]];
     hint "Heads up!\nSupport drop on marked position Sir.";
