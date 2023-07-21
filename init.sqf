@@ -5,6 +5,8 @@ addMissionEventHandler ["Draw3D", { call fnc_showUnitNames; }];
 //setViewDistance
 //setViewDistance 12000;
 
+enableSaving [false, false];
+
 // Load ZUI functions
 call compile(preprocessFileLineNumbers("lib\zui\zui-functions.sqf"));
 call compile(preprocessFileLineNumbers("lib\zdbg\zdbg.sqf"));
