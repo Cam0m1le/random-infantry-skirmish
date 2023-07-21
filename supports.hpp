@@ -6,7 +6,7 @@ class RSTF_BUYABLE_SUPPORTS
 		description = "Supply Air Drop";
 		picture = "\a3\ui_f\data\igui\cfg\simpletasks\types\destroy_ca.paa";
 		cost = 500;
-		execute = [player, "B_Quadbike_01_F"] execvm "fnc\support\ROS_AirDrop.sqf";
+		execute = [player, "C_supplyCrate_F"] execvm "fnc\support\ROS_AirDrop.sqf";
 	};
 
 	class ArtillerySmoke
