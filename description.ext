@@ -14,6 +14,8 @@ ReviveMedicSpeedMultiplier = 2;		//speed multiplier for revive performed by medi
 ReviveForceRespawnDelay = 3;		//time needed to perform force respawn (in secs)
 ReviveBleedOutDelay = 120;			//unconscious state duration (in secs)
 
+enableDebugConsole = 1;
+
 #include "dialogs\base.hpp"
 #include "dialogs\extended.hpp"
 #include "dialogs\titles.hpp"
