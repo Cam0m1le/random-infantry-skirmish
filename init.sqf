@@ -1,4 +1,3 @@
-// Load ZUI functions
 //Show Players Names
 setViewDistance 12000;
 fnc_showUnitNames = compileFinal (preprocessFileLineNumbers "showUnitNames.sqf");
@@ -7,6 +6,7 @@ addMissionEventHandler ["Draw3D", { call fnc_showUnitNames; }];
 //setViewDistance
 //setViewDistance 12000;
 
+// Load ZUI functions
 call compile(preprocessFileLineNumbers("lib\zui\zui-functions.sqf"));
 call compile(preprocessFileLineNumbers("lib\zdbg\zdbg.sqf"));
 ZDBG_Prefix = '[RSTF] ';
