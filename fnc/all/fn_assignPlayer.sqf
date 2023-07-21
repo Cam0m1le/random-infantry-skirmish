@@ -41,6 +41,7 @@ if (alive(_unit)) then {
 
 	// Move player into new unit
 	selectPlayer _unit;
+	[player] call BIS_fnc_reenableRevive;
 
 	// Remove respawned unit in multiplayer
 	if (isMultiplayer && _previous != RSTF_BACKUP_PLAYER) then {
