@@ -58,7 +58,7 @@ for [{_i = 0},{_i < count(_classes)},{_i = _i + 1}] do {
 				_weaponized = true;
 			};
 
-			if (!_uav && !_arty) then {
+			if (!_uav) then {
 				if (_land) then {
 					if (_hasDriver && _transport >= 2 && !_static && count(_weapons) <= 1) then {
 						_transports pushBack configName(_c);
