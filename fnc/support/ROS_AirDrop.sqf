@@ -87,8 +87,8 @@ if (!visibleMap) exitwith {
 
 if (Relocate_drop) then {
 
-    _mkrTxt = format ["%1 drop",name _unit];
-    _mkrname = "drop";
+    _mkrTxt = "Arsenal";
+    _mkrname = "Arsenal";
     _mkr = createMarkerLocal [_mkrname, Relocate_clickpos];
     _mkrname setMarkerPos Relocate_clickpos;
     _mkr setMarkerTypeLocal "hd_dot";
@@ -114,7 +114,7 @@ if (Relocate_drop) then {
     // Simulate flyby of C17
     //["c17"] remoteExec ["playSound"];
 
-    sleep 5;
+    sleep 1;
 
     // Adjust drop target pos allow for slope and clutter
     _pos = Relocate_clickpos;
@@ -124,7 +124,7 @@ if (Relocate_drop) then {
     _vehpos = [_pos select 0, _pos select 1, _dropheight];
     "drop" setMarkerPos _pos;
     _veh = createVehicle [_vehtype, _vehpos, [], 0, "CAN_COLLIDE"];
-    _veh addAction ["Арсенал", {["Open",true] spawn BIS_fnc_arsenal}, nil, 1.5, true, false, "", "", 3];
+    ["AmmoboxInit",[_veh,true]] remoteExec ["BIS_fnc_arsenal"];
     _chute = createVehicle ["B_Parachute_02_F", _vehpos, [], 10, "FLY"];
     _veh attachto [_chute,[0,0,1]];
     hint "Heads up!\nSupport drop on marked position Sir.";
@@ -136,13 +136,13 @@ if (Relocate_drop) then {
     setWind [_curwind select 0, _curwind select 1, true];
 
     // Remove marker
-    waitUntil{isTouchingGround _veh or isNull _veh};
-    _pos = getPosATL _veh;
-    deleteMarkerLocal "drop";
-    setWind [_curwind select 0, _curwind select 1, true];
-    hint format ["%1 vehicle touch down at marked position",_unit];
-    waituntil {_unit distance _veh < 40};
-    deleteMarker "drop";
+    //waitUntil{isTouchingGround _veh or isNull _veh};
+    //_pos = getPosATL _veh;
+    //deleteMarkerLocal "drop";
+    //setWind [_curwind select 0, _curwind select 1, true];
+    //hint format ["%1 vehicle touch down at marked position",_unit];
+    //waituntil {_unit distance _veh < 40};
+    //deleteMarker "drop";
 };
 
 hint "";
