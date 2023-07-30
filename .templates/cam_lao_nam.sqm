@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=137;
+		nextID=138;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14671.999,136.27739,15731.042};
-		dir[]={-0.09604115,-0.43761376,0.89413631};
-		up[]={-0.046743132,0.89908534,0.43520233};
-		aside[]={0.99440986,-6.6957e-007,0.10680982};
+		pos[]={9369.2256,219.85069,21531.16};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,0};
 	};
 };
 binarizationWanted=0;
-sourceName="RIS-Build";
+sourceName="RIS2";
 addons[]=
 {
 	"A3_Ui_F",
@@ -118,7 +118,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="RIS - Cam Lao Nam";
+		briefingName="RIS - Altis";
 		overviewText="Random skirmish on random place on island";
 		resistanceWest=0;
 		startWeather=0.28999999;
@@ -160,10 +160,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14245.743,137.97778,14131.33};
+						position[]={14090.172,16.810787,16447.982};
+						angles[]={0.0077281403,0,0.001381068};
 					};
 					side="West";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -174,7 +175,7 @@ class Mission
 					};
 					id=2;
 					type="B_Soldier_unarmed_F";
-					atlOffset=113.78547;
+					atlOffset=-66.729126;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -211,7 +212,7 @@ class Mission
 			{
 			};
 			id=1;
-			atlOffset=113.78547;
+			atlOffset=-66.729126;
 		};
 		class Item2
 		{
@@ -225,10 +226,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14244.3,137.81888,14129.928};
+						position[]={14088.729,16.819086,16446.58};
+						angles[]={0.0071558496,0,0.0013788101};
 					};
 					side="West";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -238,7 +240,7 @@ class Mission
 					};
 					id=23;
 					type="B_Soldier_unarmed_F";
-					atlOffset=113.72791;
+					atlOffset=-65.453804;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -275,7 +277,7 @@ class Mission
 			{
 			};
 			id=22;
-			atlOffset=113.72791;
+			atlOffset=-65.453804;
 		};
 		class Item3
 		{
@@ -289,10 +291,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14247.178,137.89896,14130.1};
+						position[]={14091.606,16.821819,16446.752};
+						angles[]={0.0071596238,0,0.001381068};
 					};
 					side="West";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -302,7 +305,7 @@ class Mission
 					};
 					id=25;
 					type="B_Soldier_unarmed_F";
-					atlOffset=113.6706;
+					atlOffset=-67.716721;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -339,7 +342,7 @@ class Mission
 			{
 			};
 			id=24;
-			atlOffset=113.6706;
+			atlOffset=-67.716721;
 		};
 		class Item4
 		{
@@ -353,11 +356,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14243.059,137.63055,14128.232};
-						angles[]={6.276526,0,0.0026520467};
+						position[]={14087.487,16.82905,16444.885};
+						angles[]={0.0045281379,0,0.0039967569};
 					};
 					side="West";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -367,7 +370,7 @@ class Mission
 					};
 					id=40;
 					type="B_Soldier_unarmed_F";
-					atlOffset=113.64392;
+					atlOffset=-64.663033;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -404,7 +407,7 @@ class Mission
 			{
 			};
 			id=39;
-			atlOffset=113.64392;
+			atlOffset=-64.663033;
 		};
 		class Item5
 		{
@@ -418,10 +421,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14248.712,137.75311,14128.098};
+						position[]={14093.141,16.845703,16444.75};
+						angles[]={0.0071596238,0,0.012974046};
 					};
 					side="West";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -431,7 +435,7 @@ class Mission
 					};
 					id=42;
 					type="B_Soldier_unarmed_F";
-					atlOffset=113.513;
+					atlOffset=-68.737633;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -468,7 +472,7 @@ class Mission
 			{
 			};
 			id=41;
-			atlOffset=113.513;
+			atlOffset=-68.737633;
 		};
 		class Item6
 		{
@@ -482,11 +486,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14244.312,137.51108,14126.654};
-						angles[]={6.276526,0,0.0026520467};
+						position[]={14088.74,16.841209,16443.307};
+						angles[]={0.0045204028,0,0.0039968039};
 					};
 					side="West";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -496,7 +500,7 @@ class Mission
 					};
 					id=44;
 					type="B_Soldier_unarmed_F";
-					atlOffset=113.49151;
+					atlOffset=-65.363533;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -533,7 +537,7 @@ class Mission
 			{
 			};
 			id=43;
-			atlOffset=113.49151;
+			atlOffset=-65.363533;
 		};
 		class Item7
 		{
@@ -547,11 +551,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14246.97,137.57303,14126.631};
-						angles[]={6.2791886,0,0};
+						position[]={14091.398,16.846361,16443.283};
+						angles[]={0.0071558496,0,0.0013788101};
 					};
 					side="West";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -561,7 +565,7 @@ class Mission
 					};
 					id=46;
 					type="B_Soldier_unarmed_F";
-					atlOffset=113.44195;
+					atlOffset=-67.39769;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -598,7 +602,7 @@ class Mission
 			{
 			};
 			id=45;
-			atlOffset=113.44195;
+			atlOffset=-67.39769;
 		};
 		class Item8
 		{
@@ -612,11 +616,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14245.773,137.40775,14125.188};
-						angles[]={6.276526,0,0.0026520467};
+						position[]={14090.202,16.853712,16441.84};
+						angles[]={0.0045204028,0,0.0039968039};
 					};
 					side="West";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -626,7 +630,7 @@ class Mission
 					};
 					id=48;
 					type="B_Soldier_unarmed_F";
-					atlOffset=113.35384;
+					atlOffset=-66.249336;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -663,296 +667,276 @@ class Mission
 			{
 			};
 			id=47;
-			atlOffset=113.35384;
+			atlOffset=-66.249336;
 		};
 		class Item9
 		{
 			dataType="Marker";
-			position[]={16419.816,26.379999,3700.219};
-			name="RSTF_POSITION_1";
-			text="Saigon";
+			position[]={7716.1836,3.8099999,11751.168};
+			name="RSTF_POSITION_25";
+			text="Attapeu";
 			markerType="ELLIPSE";
 			type="ellipse";
 			a=100;
 			b=100;
-			id=10;
+			id=94;
 		};
 		class Item10
 		{
 			dataType="Marker";
-			position[]={13012.19,1.163,13419.521};
-			name="RSTF_POSITION_2";
-			text="Hanoi";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=91;
-			atlOffset=0.00026285648;
-		};
-		class Item11
-		{
-			dataType="Marker";
-			position[]={17492.822,6.8720002,9189.9121};
-			name="RSTF_POSITION_3";
-			text="Hue";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=92;
-			atlOffset=0.00022268295;
-		};
-		class Item12
-		{
-			dataType="Marker";
-			position[]={18310.379,8.7489996,4938.9268};
+			position[]={18302.152,15.889638,4931.0371};
 			name="RSTF_POSITION_4";
 			text="Ba Ria II";
 			markerType="ELLIPSE";
 			type="ellipse";
 			a=100;
 			b=100;
-			id=93;
-			atlOffset=-4.3472013;
-		};
-		class Item13
-		{
-			dataType="Marker";
-			position[]={16146.058,16.002001,7428.3989};
-			name="RSTF_POSITION_5";
-			text="Pleiku Airbase North";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=94;
-			atlOffset=-8.5830688e-005;
-		};
-		class Item14
-		{
-			dataType="Marker";
-			position[]={16342.688,6.3520002,6549.4878};
-			name="RSTF_POSITION_6";
-			text="Pleiku Airbase South";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
 			id=95;
-			atlOffset=-8.6279993;
+			atlOffset=3.9327965;
 		};
-		class Item15
+		class Item11
 		{
 			dataType="Marker";
-			position[]={19635,0.50300002,6765.876};
-			name="RSTF_POSITION_7";
-			text="Da Nang";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=96;
-			atlOffset=-4.4569998;
-		};
-		class Item16
-		{
-			dataType="Marker";
-			position[]={2318.865,-6.6100001,3988.9719};
-			name="RSTF_POSITION_9";
-			text="Maxwell Field";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=98;
-			atlOffset=-36.599998;
-		};
-		class Item17
-		{
-			dataType="Marker";
-			position[]={17068.279,9.1230001,11757.853};
-			name="RSTF_POSITION_10";
-			text="Sam Song";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=101;
-			atlOffset=-0.00010108948;
-		};
-		class Item18
-		{
-			dataType="Marker";
-			position[]={15111.307,7.0100002,11097.852};
-			name="RSTF_POSITION_11";
-			text="Lang Mau";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=102;
-		};
-		class Item19
-		{
-			dataType="Marker";
-			position[]={13752.466,428.871,8404.542};
-			name="RSTF_POSITION_12";
-			text="FSB  Berchtesgaden";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=103;
-			atlOffset=-8.335907;
-		};
-		class Item20
-		{
-			dataType="Marker";
-			position[]={12310.716,115.487,11439.626};
-			name="RSTF_POSITION_13";
-			text="Banh Trung";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=104;
-			atlOffset=-0.00019836426;
-		};
-		class Item21
-		{
-			dataType="Marker";
-			position[]={11457.332,212.731,9595.0146};
-			name="RSTF_POSITION_14";
-			text="Seg Begat";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=105;
-			atlOffset=-8.3355255;
-		};
-		class Item22
-		{
-			dataType="Marker";
-			position[]={9645.5928,309.685,11416.271};
-			name="RSTF_POSITION_15";
-			text="Da Krong";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=106;
-			atlOffset=-8.3357849;
-		};
-		class Item23
-		{
-			dataType="Marker";
-			position[]={7827.7168,82.470001,9092.2266};
-			name="RSTF_POSITION_16";
-			text="Lumphat";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=107;
-			atlOffset=-8.3357849;
-		};
-		class Item24
-		{
-			dataType="Marker";
-			position[]={14265.598,-7.2810001,18088.66};
-			name="RSTF_POSITION_17";
-			text="Xom Ram";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=108;
-			atlOffset=-8.33634;
-		};
-		class Item25
-		{
-			dataType="Marker";
-			position[]={12397.756,-3.4159999,19300.885};
-			name="RSTF_POSITION_18";
-			text="Tieng Tai";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=109;
-			atlOffset=-8.3360004;
-		};
-		class Item26
-		{
-			dataType="Marker";
-			position[]={13030.369,11.634,17033.387};
-			name="RSTF_POSITION_19";
-			text="Son Tay";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=110;
-			atlOffset=-8.3359995;
-		};
-		class Item27
-		{
-			dataType="Marker";
-			position[]={14134.21,2.6140001,15793.21};
-			name="RSTF_POSITION_20";
-			text="Bai Chai";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=111;
-			atlOffset=-8.3359995;
-		};
-		class Item28
-		{
-			dataType="Marker";
-			position[]={13180.976,10.374,16012.065};
+			position[]={13172.75,15.060267,16004.176};
 			name="RSTF_POSITION_21";
 			text="Bach Dang";
 			markerType="ELLIPSE";
 			type="ellipse";
 			a=100;
 			b=100;
-			id=112;
-			atlOffset=-8.3358889;
+			id=96;
+			atlOffset=9.5367432e-007;
 		};
-		class Item29
+		class Item12
 		{
 			dataType="Marker";
-			position[]={10604.272,296.659,18112.127};
-			name="RSTF_POSITION_22";
-			text="Pak Noi";
+			position[]={1445.5195,13.720182,9526.0039};
+			name="RSTF_POSITION_43";
+			text="Bai Bien Dep";
 			markerType="ELLIPSE";
 			type="ellipse";
 			a=100;
 			b=100;
-			id=113;
-			atlOffset=-8.3356934;
+			id=97;
+			atlOffset=8.2801819;
 		};
-		class Item30
+		class Item13
 		{
 			dataType="Marker";
-			position[]={15231.476,56.849998,4700.7642};
+			position[]={14125.984,10.95,15785.32};
+			name="RSTF_POSITION_20";
+			text="Bai Chai";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=98;
+		};
+		class Item14
+		{
+			dataType="Marker";
+			position[]={12302.49,124.37012,11431.736};
+			name="RSTF_POSITION_13";
+			text="Banh Trung";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=99;
+			atlOffset=8.2798004;
+		};
+		class Item15
+		{
+			dataType="Marker";
+			position[]={12193.106,17.12916,16658.592};
+			name="RSTF_POSITION_38";
+			text="Bok Raz Ocra";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=100;
+		};
+		class Item16
+		{
+			dataType="Marker";
+			position[]={8718.6299,150.83293,13748.428};
+			name="RSTF_POSITION_30";
+			text="Bru";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=101;
+		};
+		class Item17
+		{
+			dataType="Marker";
+			position[]={9637.3672,319.61209,11408.381};
+			name="RSTF_POSITION_15";
+			text="Da Krong";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=102;
+		};
+		class Item18
+		{
+			dataType="Marker";
+			position[]={19626.773,8.7829981,6757.9863};
+			name="RSTF_POSITION_7";
+			text="Da Nang";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=103;
+			atlOffset=0.0074300766;
+		};
+		class Item19
+		{
+			dataType="Marker";
+			position[]={14778.118,99.598343,6858.2725};
+			name="RSTF_POSITION_40";
+			text="FOB2 Kon Tum";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=104;
+		};
+		class Item20
+		{
+			dataType="Marker";
+			position[]={14761.018,244.05,9609.9824};
+			name="RSTF_POSITION_42";
+			text="FOB3 Mai Loc";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=105;
+		};
+		class Item21
+		{
+			dataType="Marker";
+			position[]={17317.809,30.27453,5564.9238};
+			name="RSTF_POSITION_41";
+			text="FOB5 Ban Me Thuot";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=106;
+			atlOffset=0.00038719177;
+		};
+		class Item22
+		{
+			dataType="Marker";
+			position[]={15223.25,65.129997,4692.875};
 			name="RSTF_POSITION_23";
 			text="FOB6 Ho Ngoc Tao";
 			markerType="ELLIPSE";
 			type="ellipse";
 			a=100;
 			b=100;
-			id=114;
-			atlOffset=-8.1900024;
+			id=107;
+			atlOffset=0.089996338;
 		};
-		class Item31
+		class Item23
 		{
 			dataType="Marker";
-			position[]={10201.536,16.969999,7052.5068};
+			position[]={13744.24,437.72345,8396.6523};
+			name="RSTF_POSITION_12";
+			text="FSB  Berchtesgaden";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=108;
+			atlOffset=-3.0517578e-005;
+		};
+		class Item24
+		{
+			dataType="Marker";
+			position[]={11285.139,70.025322,14579.893};
+			name="RSTF_POSITION_37";
+			text="Gia Lam Airbase";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=109;
+			atlOffset=0.065322876;
+		};
+		class Item25
+		{
+			dataType="Marker";
+			position[]={14600.702,10.95,15965.158};
+			name="RSTF_POSITION_45";
+			text="Ha Long Navy Base North";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=110;
+		};
+		class Item26
+		{
+			dataType="Marker";
+			position[]={14597.851,13.239999,15164.379};
+			name="RSTF_POSITION_44";
+			text="Ha Long Navy Base South";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=111;
+			atlOffset=8.0652294;
+		};
+		class Item27
+		{
+			dataType="Marker";
+			position[]={13003.965,8.6825199,13411.631};
+			name="RSTF_POSITION_2";
+			text="Hanoi";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=112;
+			atlOffset=8.2802734;
+		};
+		class Item28
+		{
+			dataType="Marker";
+			position[]={17484.598,15.15044,9182.0215};
+			name="RSTF_POSITION_3";
+			text="Hue";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=113;
+			atlOffset=8.2802258;
+		};
+		class Item29
+		{
+			dataType="Marker";
+			position[]={7673.0366,205.16914,16751.154};
+			name="RSTF_POSITION_28";
+			text="Ket Thuc";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=114;
+		};
+		class Item30
+		{
+			dataType="Marker";
+			position[]={10193.311,25.198687,7044.6172};
 			name="RSTF_POSITION_24";
 			text="Kiem Tra";
 			markerType="ELLIPSE";
@@ -960,279 +944,279 @@ class Mission
 			a=100;
 			b=100;
 			id=115;
-			atlOffset=-8.3363113;
+			atlOffset=-1.9073486e-006;
 		};
-		class Item32
+		class Item31
 		{
 			dataType="Marker";
-			position[]={7724.4092,-4.4499998,11759.058};
-			name="RSTF_POSITION_25";
-			text="Attapeu";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=116;
-			atlOffset=-8.3362694;
-		};
-		class Item33
-		{
-			dataType="Marker";
-			position[]={4037.8149,32.888,10196.434};
-			name="RSTF_POSITION_26";
-			text="San Bay Ban";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=117;
-			atlOffset=-8.3361511;
-		};
-		class Item34
-		{
-			dataType="Marker";
-			position[]={5196.4751,73.421997,9464.6475};
-			name="RSTF_POSITION_27";
-			text="Thung Lung Cao";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=118;
-			atlOffset=-8.335434;
-		};
-		class Item35
-		{
-			dataType="Marker";
-			position[]={7681.2622,195.578,16759.043};
-			name="RSTF_POSITION_28";
-			text="Ket Thuc";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=119;
-			atlOffset=-8.3359375;
-		};
-		class Item36
-		{
-			dataType="Marker";
-			position[]={5776.646,112.111,17027.701};
-			name="RSTF_POSITION_29";
-			text="Vong Xo";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=120;
-			atlOffset=-8.3358307;
-		};
-		class Item37
-		{
-			dataType="Marker";
-			position[]={8726.8555,142.48599,13756.316};
-			name="RSTF_POSITION_30";
-			text="Bru";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=121;
-			atlOffset=-8.3356171;
-		};
-		class Item38
-		{
-			dataType="Marker";
-			position[]={9123.2021,303.67401,16289.815};
-			name="RSTF_POSITION_31";
-			text="Thug Ridge";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=122;
-			atlOffset=-8.3359985;
-		};
-		class Item39
-		{
-			dataType="Marker";
-			position[]={4821.0498,1.13,15098.547};
-			name="RSTF_POSITION_32";
-			text="Nong Khiaw";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=123;
-			atlOffset=-8.2799997;
-		};
-		class Item40
-		{
-			dataType="Marker";
-			position[]={3962.8191,181.091,19710.672};
+			position[]={3954.5938,188.43245,19702.783};
 			name="RSTF_POSITION_33";
 			text="Lai Chau";
 			markerType="ELLIPSE";
 			type="ellipse";
 			a=100;
 			b=100;
-			id=124;
-			atlOffset=-8.3355255;
+			id=116;
 		};
-		class Item41
+		class Item32
 		{
 			dataType="Marker";
-			position[]={1660.3719,2.4059999,19158.703};
+			position[]={15103.081,15.410374,11089.963};
+			name="RSTF_POSITION_11";
+			text="Lang Mau";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=117;
+			atlOffset=8.2799978;
+		};
+		class Item33
+		{
+			dataType="Marker";
+			position[]={7819.4912,89.943184,9084.3379};
+			name="RSTF_POSITION_16";
+			text="Lumphat";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=118;
+		};
+		class Item34
+		{
+			dataType="Marker";
+			position[]={2310.6396,29.99,3981.082};
+			name="RSTF_POSITION_9";
+			text="Maxwell Field";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=119;
+		};
+		class Item35
+		{
+			dataType="Marker";
+			position[]={1652.1465,10.649208,19150.814};
 			name="RSTF_POSITION_34";
 			text="Nodal Lho";
 			markerType="ELLIPSE";
 			type="ellipse";
 			a=100;
 			b=100;
-			id=125;
-			atlOffset=-8.3354893;
+			id=120;
 		};
-		class Item42
+		class Item36
 		{
 			dataType="Marker";
-			position[]={2224.7949,189.34399,13393.936};
+			position[]={4812.8242,9.4099998,15090.658};
+			name="RSTF_POSITION_32";
+			text="Nong Khiaw";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=121;
+		};
+		class Item37
+		{
+			dataType="Marker";
+			position[]={10596.047,306.577,18104.236};
+			name="RSTF_POSITION_22";
+			text="Pak Noi";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=122;
+			atlOffset=3.0517578e-005;
+		};
+		class Item38
+		{
+			dataType="Marker";
+			position[]={2216.5693,197.67999,13386.045};
 			name="RSTF_POSITION_35";
 			text="Phok Ham";
 			markerType="ELLIPSE";
 			type="ellipse";
 			a=100;
 			b=100;
-			id=126;
-			atlOffset=-8.3359985;
+			id=123;
 		};
-		class Item43
+		class Item39
 		{
 			dataType="Marker";
-			position[]={7207.3442,61.575001,14939.119};
+			position[]={16137.832,26.079607,7420.5098};
+			name="RSTF_POSITION_5";
+			text="Pleiku Airbase North";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=124;
+			atlOffset=8.279911;
+		};
+		class Item40
+		{
+			dataType="Marker";
+			position[]={16334.463,14.98,6541.5977};
+			name="RSTF_POSITION_6";
+			text="Pleiku Airbase South";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=125;
+		};
+		class Item41
+		{
+			dataType="Marker";
+			position[]={7199.1187,69.897346,14931.229};
 			name="RSTF_POSITION_36";
 			text="Rung Cung";
 			markerType="ELLIPSE";
 			type="ellipse";
 			a=100;
 			b=100;
-			id=127;
-			atlOffset=-8.2802773;
+			id=126;
+			atlOffset=7.6293945e-006;
 		};
-		class Item44
+		class Item42
 		{
 			dataType="Marker";
-			position[]={11293.364,61.762001,14587.782};
-			name="RSTF_POSITION_37";
-			text="Gia Lam Airbase";
+			position[]={16411.59,34.659996,3692.3291};
+			name="RSTF_POSITION_1";
+			text="Saigon";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=127;
+			atlOffset=8.2799969;
+		};
+		class Item43
+		{
+			dataType="Marker";
+			position[]={17060.055,16.682274,11749.963};
+			name="RSTF_POSITION_10";
+			text="Sam Song";
 			markerType="ELLIPSE";
 			type="ellipse";
 			a=100;
 			b=100;
 			id=128;
-			atlOffset=-8.2146912;
+			atlOffset=8.2798958;
 		};
-		class Item45
+		class Item44
 		{
 			dataType="Marker";
-			position[]={12201.332,9.651,16666.482};
-			name="RSTF_POSITION_38";
-			text="Bok Raz Ocra";
+			position[]={4029.5889,40.47929,10188.545};
+			name="RSTF_POSITION_26";
+			text="San Bay Ban";
 			markerType="ELLIPSE";
 			type="ellipse";
 			a=100;
 			b=100;
 			id=129;
-			atlOffset=-8.5645571;
+		};
+		class Item45
+		{
+			dataType="Marker";
+			position[]={11449.106,222.33627,9587.125};
+			name="RSTF_POSITION_14";
+			text="Seg Begat";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=130;
 		};
 		class Item46
 		{
 			dataType="Marker";
-			position[]={12143.729,-3.3499999,17646.801};
+			position[]={13022.144,19.969999,17025.498};
+			name="RSTF_POSITION_19";
+			text="Son Tay";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=131;
+		};
+		class Item47
+		{
+			dataType="Marker";
+			position[]={12135.503,4.9299998,17638.912};
 			name="RSTF_POSITION_39";
 			text="Son Tay POW Camp";
 			markerType="ELLIPSE";
 			type="ellipse";
 			a=100;
 			b=100;
-			id=130;
-			atlOffset=-8.2799997;
-		};
-		class Item47
-		{
-			dataType="Marker";
-			position[]={14786.344,91.309998,6866.1621};
-			name="RSTF_POSITION_40";
-			text="FOB2 Kon Tum";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=131;
-			atlOffset=-8.2799988;
+			id=132;
 		};
 		class Item48
 		{
 			dataType="Marker";
-			position[]={17326.033,22.281,5572.813};
-			name="RSTF_POSITION_41";
-			text="FOB5 Ban Me Thuot";
-			markerType="ELLIPSE";
-			type="ellipse";
-			a=100;
-			b=100;
-			id=132;
-			atlOffset=-8.2796116;
-		};
-		class Item49
-		{
-			dataType="Marker";
-			position[]={14769.243,235.77,9617.8711};
-			name="RSTF_POSITION_42";
-			text="FOB3 Mai Loc";
+			position[]={9114.9766,311.88135,16281.926};
+			name="RSTF_POSITION_31";
+			text="Thug Ridge";
 			markerType="ELLIPSE";
 			type="ellipse";
 			a=100;
 			b=100;
 			id=133;
-			atlOffset=-8.2799988;
+			atlOffset=-3.0517578e-005;
 		};
-		class Item50
+		class Item49
 		{
 			dataType="Marker";
-			position[]={1453.745,5.599,9533.8936};
-			name="RSTF_POSITION_43";
-			text="Bai Bien Dep";
+			position[]={5188.2495,81.113266,9456.7578};
+			name="RSTF_POSITION_27";
+			text="Thung Lung Cao";
 			markerType="ELLIPSE";
 			type="ellipse";
 			a=100;
 			b=100;
 			id=134;
-			atlOffset=0.00014591217;
+			atlOffset=-7.6293945e-006;
 		};
-		class Item51
+		class Item50
 		{
 			dataType="Marker";
-			position[]={14606.076,4.96,15172.269};
-			name="RSTF_POSITION_44";
-			text="Ha Long Navy Base South";
+			position[]={12389.53,4.9348536,19292.994};
+			name="RSTF_POSITION_18";
+			text="Tieng Tai";
 			markerType="ELLIPSE";
 			type="ellipse";
 			a=100;
 			b=100;
 			id=135;
 		};
-		class Item52
+		class Item51
 		{
 			dataType="Marker";
-			position[]={14608.928,2.6140001,15973.047};
-			name="RSTF_POSITION_45";
-			text="Ha Long Navy Base North";
+			position[]={5768.4204,120.43971,17019.811};
+			name="RSTF_POSITION_29";
+			text="Vong Xo";
 			markerType="ELLIPSE";
 			type="ellipse";
 			a=100;
 			b=100;
 			id=136;
-			atlOffset=-8.3359995;
+		};
+		class Item52
+		{
+			dataType="Marker";
+			position[]={14257.372,-1.02,18080.771};
+			name="RSTF_POSITION_17";
+			text="Xom Ram";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=100;
+			b=100;
+			id=137;
 		};
 	};
 };
