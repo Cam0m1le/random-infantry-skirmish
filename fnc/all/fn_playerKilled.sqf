@@ -9,7 +9,7 @@ RSTF_DEATH_GROUP = group(_unit);
 if (!isMultiplayer) then {
 	selectPlayer RSTF_BACKUP_PLAYER;
 	[player] call BIS_fnc_reenableRevive;
-	[player] execvm "fnc\all\ROS_dragbody.sqf";
+	//[player] execvm "fnc\all\ROS_dragbody.sqf";
 
 	_side = SIDE_ENEMY;
 	if (PLAYER_SIDE == west) then {

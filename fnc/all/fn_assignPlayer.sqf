@@ -42,7 +42,7 @@ if (alive(_unit)) then {
 	// Move player into new unit
 	selectPlayer _unit;
 	[player] call BIS_fnc_reenableRevive;
-	[player] execvm "fnc\all\ROS_dragbody.sqf";
+	//[player] execvm "fnc\all\ROS_dragbody.sqf";
 
 	// Remove respawned unit in multiplayer
 	if (isMultiplayer && _previous != RSTF_BACKUP_PLAYER) then {
